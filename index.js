@@ -1,17 +1,17 @@
-function Scooter(){
+function Scooter(year, color, model, properties){
   this.year = year
   this.color = color
   this.model = model
   this.properties = properties
 }
 
-function Driver(){
+function Driver(name, age, experience){
   this.name = name
   this.age = age
   this.experience = experience
 }
 
-function PickupLocation(){
+function PickupLocation(address, citt){
   this.address = address
   this.city = city
 }
